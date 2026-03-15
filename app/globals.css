@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family:"ArmAllegroU" ;
+  src: url('/font/ArmAllegroU.woff2');
+}
+
+@font-face {
+  font-family:"SHK_Dzeragir" ;
+  src: url('/font/SHK_Dzeragir.woff2');
+}
+
+.FontArmAllegroU{
+  font-family: "ArmAllegroU";
+}
+
+.FontSHK_Dzeragir{
+  font-family: "SHK_Dzeragir";
+  
+}
