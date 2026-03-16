@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Վերջին զանգի հրավիրատոմս",
     description: "Ամեն ավարտ մի նոր սկիզբ է․․․",
-    url: "https://verjin-zang-2.vercel.app/",
+    url: "https://verjin-zang-4.vercel.app/",
     siteName: "Վերջին զանգ",
     images: [
       {
