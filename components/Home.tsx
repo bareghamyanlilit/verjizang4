@@ -63,7 +63,7 @@ export function Home() {
       <div className="px-5">
         <div className="FontSHK_Dzeragir bg-[#DBDEEA] py-7  pt-20 flex flex-col gap-5 text-center rounded-t-[150px]">
           <h2 className="text-3xl tracking-[13.5%]  ">Վերջին Զանգին</h2>
-          <p className=" text-[28px] tracking-[1.5%] text-[#000000] ">{txt2}</p>
+          <p className=" text-2xl tracking-[1.5%] text-[#000000] ">{txt2}</p>
         </div>
       </div>
 

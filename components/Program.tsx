@@ -39,7 +39,7 @@ export function Program() {
                   {program[1].title}
                 </motion.p>
               </div>
-              <div className="text-start mt-45">
+              <div className="text-start mt-55">
                 <motion.h3 {...anim} className=" text-[40px]">
                   {program[2].time}
                 </motion.h3>
