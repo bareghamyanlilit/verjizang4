@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className="m-auto max-w-md bg-[#ECEFFC] text-[#1E1E1E]"
+        className="m-auto max-w-100 bg-[#ECEFFC] text-[#1E1E1E]"
         style={{ whiteSpace: "pre-line" }}
       >
         {children}
