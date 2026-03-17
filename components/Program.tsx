@@ -4,7 +4,7 @@ import {motion} from "framer-motion"
 
 export function Program() {
   return (
-        <div className="FontSHK_Dzeragir text-[#000000]">
+        <div className="FontSHK_Dzeragir overflow-hidden text-[#000000]">
           <h2 className="text-[32px]  tracking-[1.5%] text-center">ԺԱՄԱՆԱԿԱՑՈՒՅՑ</h2>
           <div className="relative flex flex-col gap-20">
             <Image
@@ -12,7 +12,7 @@ export function Program() {
               alt="icon1"
               width={500}
               height={500}
-              className="-z-1 -left-18 absolute  "
+              className="-z-1 -left-18 absolute   "
             />
             <div className="px-5 mt-40  pt-5">
               <div className="text-start ">
@@ -27,7 +27,7 @@ export function Program() {
                   {program[0].title}
                 </motion.p>
               </div>
-              <div className="text-end mt-25 mb-7">
+              <div className="text-end mt-40">
                 <motion.h3 {...anim} className=" text-[40px]">
                   {program[1].time}
                 </motion.h3>
